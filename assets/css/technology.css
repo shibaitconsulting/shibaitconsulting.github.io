@@ -1,12 +1,12 @@
 .tech-icon-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(100px, 1fr));
+    justify-items: center;
     gap: 16px; /* adjust the space between icons */
 }
-  
+
 .tech-icon {
-    width: 100px; /* adjust the icon container width */
+    width: 100%; /* adjust the icon container width to be 100% of the grid cell */
     height: 100px; /* adjust the icon container height */
     display: flex;
     align-items: center;
