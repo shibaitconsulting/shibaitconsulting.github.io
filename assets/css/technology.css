@@ -17,3 +17,11 @@
     max-width: 100%;
     max-height: 100%;
 }
+
+.flex-container {
+    display: flex;
+    align-items: center; /* This aligns items vertically center in the container */
+    justify-content: center; /* This aligns items horizontally center in the container */
+    height: 100%; /* Make sure the container has a defined height */
+  }
+  
